@@ -1,0 +1,32 @@
+#avancar {
+    position: fixed;
+    top: 50%;
+    z-index: 9000;
+    margin-top: -25px;
+    text-indent: -9999px;
+}
+
+#avancar {
+    right: 10px;
+    background-position: 0 0;
+}
+
+#voltar {
+    position: fixed;
+    top: 50%;
+    z-index: 9000;
+    margin-top: -25px;
+    text-indent: -9999px;
+}
+
+@media screen and (max-width: 1024px) {
+    #voltar {
+        display: none;
+    }
+    #avancar {
+        display: none;
+    }
+}
+
+
+
